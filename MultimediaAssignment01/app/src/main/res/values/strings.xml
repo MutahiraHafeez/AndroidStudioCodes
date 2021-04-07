@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MultimediaAssignment01</string>
+    <string name="todo">TODO</string>
+    <string name="start">Start</string>
+    <string name="startImg">START</string>
+    <string name="strImage">TODO</string>
+    <string name="surah_an_nas">Surah An-Nas</string>
+    <string name="surah_al_falaq">Surah Al-Falaq</string>
+    <string name="surah_al_ikhlas">Surah Al-Ikhlas</string>
+    <string name="surah_al_lahab">Surah Al-Lahab</string>
+    <string name="surah_an_nasr">Surah An-Nasr</string>
+    <string name="tdoo">TODO</string>
+    <string name="stop0">Stop</string>
+    <string name="play2">Play</string>
+</resources>
