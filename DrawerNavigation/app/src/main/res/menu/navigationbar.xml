@@ -1,4 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+    android:id="@+id/nav_book"
+    android:icon="@drawable/book"
+    android:title="Book" />
 
+    <item
+    android:id="@+id/nav_return"
+    android:icon="@drawable/returrn"
+    android:title="Return" />
+
+    <item
+        android:id="@+id/nav_laptop"
+        android:icon="@drawable/laptop"
+        android:title="Laptop" />
+
+    <item
+        android:id="@+id/nav_voice"
+        android:icon="@drawable/voice"
+        android:title="Voice" />
+
+    <item android:title="Reading">
+        <menu>
+            <group >
+                <item
+                    android:id="@+id/nav_chromereader"
+                    android:icon="@drawable/chromereader"
+                    android:title="Chrome Reader" />
+
+                <item
+                    android:id="@+id/nav_readmore"
+                    android:icon="@drawable/readmore"
+                    android:title="Read more" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Comments">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_addcomment"
+                    android:icon="@drawable/add_comment"
+                    android:title="Add Comment" />
+
+                <item
+                    android:id="@+id/nav_insertComment"
+                    android:icon="@drawable/insert_comment"
+                    android:title="Insert Comment" />
+
+            </group>
+        </menu>
+    </item>
+
+</group>
 </menu>
+
