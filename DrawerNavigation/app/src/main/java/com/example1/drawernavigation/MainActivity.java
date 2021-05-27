@@ -1,6 +1,6 @@
 package com.example1.drawernavigation;
 
-import androidx.annotation.NonNull;
+
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
@@ -10,7 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
-import android.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -44,13 +44,12 @@ public class MainActivity extends AppCompatActivity {
         navigationView=findViewById(R.id.nav_view);
         drawerLayout=findViewById(R.id.drawer);
 
-        toggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,"Opening","Closing");
+        toggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,"Opening",getString(R.string.close));
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
     }
 
-    private void setSupportActionBar(Toolbar toolbar) {
-    }
+
     NavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener())
     {
         public boolean onNavigationItemSelected(@NonNull MenuItem menuItem)
