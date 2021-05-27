@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85C6C0"
+    tools:context=".chatFragment">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:background="#108A7D"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="              Chat Logs"
+        android:textScaleX="1"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</FrameLayout>

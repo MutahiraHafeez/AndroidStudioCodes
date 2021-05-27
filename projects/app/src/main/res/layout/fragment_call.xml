@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#76CAC1"
+    tools:context=".callFragment">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:background="#319187"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="               Call Logs"
+        android:textScaleX="1"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</FrameLayout>
